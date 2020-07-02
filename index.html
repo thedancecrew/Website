@@ -1,29 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Include this css file in all pages  -->
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <title>The Dance Crew</title>
-</head>
-<body>
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a href="#" role="button" class="btn btn-dark btn-lg" aria-pressed="true">HOME</a>
-            </div>
-            <li class="navbar-right">
-                <a href="./html/events.html" role="button" class="btn btn-dark btn-lg" aria-pressed="true">Events</a>
-                <a href="./html/gallery.html" role="button" class="btn btn-dark btn-lg" aria-pressed="true">Gallery</a>
-                <a href="./html/contact.html" role="button" class="btn btn-dark btn-lg" aria-pressed="true">Contact Us</a>
-            </li>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-expand-lg">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a
+            href="#"
+            role="button"
+            class="btn btn-dark btn-lg"
+            aria-pressed="true"
+            >HOME</a
+          >
         </div>
+        <button
+          class="navbar-toggler toggleButton"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0 ">
+            <li class="nav-item navbar-right">
+              <a
+                href="./html/events.html"
+                role="button"
+                class="btn btn-dark btn-lg"
+                aria-pressed="true"
+                >Events</a
+              >
+            </li>
+            <li class="nav-item navbar-right">
+              <a
+                href="./html/gallery.html"
+                role="button"
+                class="btn btn-dark btn-lg"
+                aria-pressed="true"
+                >Gallery</a
+              >
+            </li>
+            <li class="nav-item navbar-right">
+              <a
+                href="./html/contact.html"
+                role="button"
+                class="btn btn-dark btn-lg"
+                aria-pressed="true"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <h1>Welcome to The Dance Crew</h1>
     <!-- Include this JS file in all pages -->
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>    
-</body>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
 </html>

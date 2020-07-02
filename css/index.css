@@ -1,23 +1,26 @@
-@font-face {
-    font-family: "Josefin Sans";
-    src: url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
-  }
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 
-.navbar{
-    background-color: #242758;
+.navbar {
+  background-color: #242758;
 }
 
 .btn {
-    background-color: #363A77;
-    padding-left: 15px;
-    border-radius: 15px;
-    font-family: "Joesfin Sans";
+  background-color: #363a77;
+  padding-left: 15px;
+  border-radius: 15px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
 }
 
 .navbar-header {
-    padding-left: 25px;
+  padding-left: 25px;
 }
 
 .navbar-right {
-    padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 5px;
+}
+
+.toggleButton{
+  background-color: white;
 }
