@@ -1,26 +1,32 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 
-.navbar {
-  background-color: #242758;
+
+
+body
+{
+  /* background: url(../assets/luke-chesser-pJadQetzTkI-unsplash.jpg) no-repeat center fixed;
+  background-size: cover; */
+  background: black;
+  background: linear-gradient(0deg, black 0%, rgba(36,39,88,1) 50%, black 100%);  
 }
 
-.btn {
-  background-color: #363a77;
-  padding-left: 15px;
-  border-radius: 15px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 600;
+main
+{
+  height: 92%;
 }
 
-.navbar-header {
-  padding-left: 25px;
+header
+{
+  height: 8%;
 }
 
-.navbar-right {
-  padding-left: 25px;
-  padding-top: 5px;
+li :hover
+{
+  border-radius:4px;
+  background-color: #545454;
 }
 
-.toggleButton{
-  background-color: white;
+li .myActive
+{
+  border-radius:4px;
+  background-color: #545454;
 }

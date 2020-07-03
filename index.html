@@ -10,62 +10,38 @@
     <title>The Dance Crew</title>
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-expand-lg">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a
-            href="#"
-            role="button"
-            class="btn btn-dark btn-lg"
-            aria-pressed="true"
-            >HOME</a
-          >
-        </div>
-        <button
-          class="navbar-toggler toggleButton"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto mb-2 mb-lg-0 ">
-            <li class="nav-item navbar-right">
-              <a
-                href="./html/events.html"
-                role="button"
-                class="btn btn-dark btn-lg"
-                aria-pressed="true"
-                >Events</a
-              >
-            </li>
-            <li class="nav-item navbar-right">
-              <a
-                href="./html/gallery.html"
-                role="button"
-                class="btn btn-dark btn-lg"
-                aria-pressed="true"
-                >Gallery</a
-              >
-            </li>
-            <li class="nav-item navbar-right">
-              <a
-                href="./html/contact.html"
-                role="button"
-                class="btn btn-dark btn-lg"
-                aria-pressed="true"
-                >Contact Us</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <h1>Welcome to The Dance Crew</h1>
+        <header>
+            <nav class="navbar navbar-dark bg-transparent navbar-expand-md">
+                    <ul class="navbar-nav mx-2">
+                            <a href="#" class="navbar-brand">Logo</a>
+                        <li class="nav-item d-none d-md-block">
+                            <a href="#" class="nav-link active myActive">Home</a>
+                        </li>
+                    </ul>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav navbar-right ml-auto mx-2">
+                            <li class="nav-item mx-1">
+                                <a href="./html/events.html" class="nav-link">Events</a>
+                            </li>
+                            <li class="nav-item mx-1">
+                                <a href="./html/gallery.html" class="nav-link">Gallery</a>
+                            </li>
+                            <li class="nav-item mx-1">
+                                <a href="./html/contact.html" class="nav-link">Contact Us</a>
+                            </li>
+                        </ul>
+                </div>
+            </nav>
+        </header>
+    <main class="d-flex justify-content-center align-items-center">
+            <img class="img-fluid" src="./assets/Dancer.png" alt="">
+            <h1 class="text-secondary">The Dance Crew</h1>  
+    </main>
+        
     <!-- Include this JS file in all pages -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
