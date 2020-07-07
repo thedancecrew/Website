@@ -30,3 +30,30 @@ li .myActive
   border-radius:4px;
   background-color: #545454;
 }
+
+.container {
+  width: auto;
+  color: white;
+  font-size: large;
+}
+
+.row {
+  background-color: #545454;
+}
+
+.team {
+  justify-content: stretch;
+  width: auto;
+  /* background-color: chartreuse; */
+}
+
+.icon {
+  background-color: white;
+  width: auto;
+}
+
+.description {
+  /* background-color: yellow; */
+  width: auto;
+  flex-grow: 1;
+}
