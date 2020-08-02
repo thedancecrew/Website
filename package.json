@@ -1,24 +1,17 @@
 {
-  "name": "Website",
+  "name": "engenextWebsite",
   "version": "1.0.0",
-  "description": "The Dance Crew IIIT H Website",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adwaitraste/Website.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/adwaitraste/Website/issues"
-  },
-  "homepage": "https://github.com/adwaitraste/Website#readme",
   "dependencies": {
     "bootstrap": "^5.0.0-alpha1",
-    "bootstrap-icons": "^1.0.0-alpha5"
+    "bootstrap-icons": "^1.0.0-alpha5",
+    "popper.js": "^1.16.1"
   }
 }
