@@ -1,8 +1,4 @@
-// Variables
+$primary: #1463a8;
 
-$primary: #000000;
-$secondary: #ffffff;
-
-
-@import 'style';
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'style';
