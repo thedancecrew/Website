@@ -42,3 +42,18 @@
     /* height: 200px; */
     display: block;
 }
+
+.icon_youtube {
+    background-image: url(../assets/youtube.png);
+    width: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
+    /* margin-left: 10px; */
+    margin-bottom: 5px;
+    height: 50px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    /* height: 200px; */
+    display: block;
+}
