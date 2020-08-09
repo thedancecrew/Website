@@ -1,0 +1,34 @@
+.imgbtn {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #bfc0c0;
+  /* font-size: 1.5em; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.2em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.30s ease-Out;
+}
+.imgbtn a {
+  text-decoration: none;
+  color: #000000;
+  position: relative;
+  transition: all 0.30s ease-Out;
+}
+.imgbtn:hover{
+    background-color: #000000;
+}
+
+.imgbtn:hover a {
+  color: #ffffff;
+}
