@@ -1,0 +1,31 @@
+.imgbtn {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #bfc0c0;
+  /* font-size: 1.5em; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.2em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/* .translate {
+    transform: rotate(50deg);
+    width: 100%;
+    height: 250%;
+    left: -200px;
+    top: -30px;
+    background: #BFC0C0;
+    position: absolute;
+    transition: all .3s ease-Out;
+  } */
