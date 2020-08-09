@@ -17,15 +17,18 @@
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  transition: all 0.30s ease-Out;
+}
+.imgbtn a {
+  text-decoration: none;
+  color: #000000;
+  position: relative;
+  transition: all 0.30s ease-Out;
+}
+.imgbtn:hover{
+    background-color: #000000;
 }
 
-/* .translate {
-    transform: rotate(50deg);
-    width: 100%;
-    height: 250%;
-    left: -200px;
-    top: -30px;
-    background: #BFC0C0;
-    position: absolute;
-    transition: all .3s ease-Out;
-  } */
+.imgbtn:hover a {
+  color: #ffffff;
+}
