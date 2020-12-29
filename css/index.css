@@ -1,17 +1,27 @@
 
 body
 {
-    background-image: url(../assets/IP.jpg);
+    background-image: url(../assets/Background.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+main
+{
+    padding-top: 10%;
+}
+
+
 .hero-text
 {
     font-size: 80px;
     color: white;
+
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    border: 3px solid #f1f1f1;
 }
 
 .side-text
