@@ -2,22 +2,22 @@ function eventmanager(a) {
     switch (a) {
         case 0:
             for (var i = 0; i < dandiya.length; i++) {
-                document.getElementById(imageId[i]).src = "../assets/Dandiya/" + dandiya[i];
+                document.getElementById(imageId[i]).src = "./assets/Dandiya/" + dandiya[i];
             }
             break;
         case 1:
             for (var i = 0; i < ttt.length; i++) {
-                document.getElementById(imageId[i]).src = "../assets/Buzz_ttt/" + ttt[i];
+                document.getElementById(imageId[i]).src = "./assets/Buzz_ttt/" + ttt[i];
             }
             break;
         case 2:
             for (var i = 0; i < flashmob.length; i++) {
-                document.getElementById(imageId[i]).src = "../assets/Flashmob/" + flashmob[i];
+                document.getElementById(imageId[i]).src = "./assets/Flashmob/" + flashmob[i];
             }
             break;
         case 3:
             for (var i = 0; i < prom.length; i++) {
-                document.getElementById(imageId[i]).src = "../assets/Prom/" + prom[i];
+                document.getElementById(imageId[i]).src = "./assets/Prom/" + prom[i];
             }
             break;
 
